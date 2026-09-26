@@ -86,6 +86,9 @@ def inject_card_css():
         .bg-visitante { background: linear-gradient(135deg, #FF416C 0%, #FF4B2B 100%); }
         .bg-empate { background: linear-gradient(135deg, #FFB75E 0%, #ED8F03 100%); }
         .bg-total { background: linear-gradient(135deg, #1F1C2C 0%, #928DAB 100%); }
+
+        /* Agrega esta línea para definir el color de las derrotas: */
+        .bg-perdidos { background: linear-gradient(135deg, #2b080c 0%, #5a121a 100%); } }
         </style>
     """, unsafe_allow_html=True)
 
